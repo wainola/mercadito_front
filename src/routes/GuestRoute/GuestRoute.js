@@ -4,6 +4,7 @@ import { Route, Redirect } from 'react-router-dom'
 import { connect } from 'react-redux'
 
 const AuthRoute = ({isAuthenticated, component:Component, location, ...rest}) => {
+  console.log('GuestRoute', isAuthenticated)
   return (
     <Route
     {...rest}

@@ -1,0 +1,6 @@
+export const LOGIN = 'LOGIN'
+export const OK_LOGIN = 'OK_LOGIN'
+export const FAIL_LOGIN = 'FAIL_LOGIN'
+export const REFRESH_LOGIN = 'REFRESH_LOGIN'
+export const LOGOUT = 'LOGOUT'
+export const OK_LOGOUT = 'OK_LOGOUT'
